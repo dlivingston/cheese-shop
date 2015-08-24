@@ -1,0 +1,47 @@
+html.cheese-shop {
+	font-size: 10px;
+
+	body {
+		&.ui-overlay-a, 
+		&.ui-page-theme-a, 
+		&.ui-page-theme-a .ui-panel-wrapper {
+			background: $blgr9 url('../images/graphpaper-material-dark.png') repeat fixed;
+			color: $teal;
+			font-family: $sans;
+			font-size: 1.6rem;
+			line-height: 1.5;
+		}
+		
+
+	}
+	a, a:visited {
+		color: $yellow;
+	}
+	h1 {
+		font-size: 4rem;
+		text-align: center;
+		line-height: 1.2;
+		padding: 0 15px;
+	}
+	.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper {
+		background: transparent;
+		text-shadow: none;
+		color: $teal;
+	}
+	.dl-logo {
+		width: 200px;
+		transition: transform 0.25s ease 0s;
+		margin: 20px auto;
+		display: block;
+		path {
+			fill: $teal;
+		}
+		&:hover {
+			transition: transform 0.25s ease 0s;
+			transform: scale(1.2);
+			path {
+				fill: $teal;
+			}
+		}
+	}
+}
