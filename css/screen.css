@@ -122,12 +122,20 @@ html.cheese-shop a, html.cheese-shop a:visited { color: #b58900; }
 /* line 20, ../sass/_theme.scss */
 html.cheese-shop h1 { font-size: 4rem; text-align: center; line-height: 1.2; padding: 0 15px; }
 /* line 26, ../sass/_theme.scss */
+html.cheese-shop h2 { font-size: 2.4rem; text-align: center; }
+/* line 30, ../sass/_theme.scss */
+html.cheese-shop p { font-size: 1.2rem; margin: 10px 15px; }
+/* line 34, ../sass/_theme.scss */
 html.cheese-shop .ui-overlay-a, html.cheese-shop .ui-page-theme-a, html.cheese-shop .ui-page-theme-a .ui-panel-wrapper { background: transparent; text-shadow: none; color: #80CBC4; }
-/* line 31, ../sass/_theme.scss */
-html.cheese-shop .dl-logo { width: 200px; transition: transform 0.25s ease 0s; margin: 20px auto; display: block; }
-/* line 36, ../sass/_theme.scss */
-html.cheese-shop .dl-logo path { fill: #80CBC4; }
 /* line 39, ../sass/_theme.scss */
+html.cheese-shop .dl-logo { width: 200px; transition: transform 0.25s ease 0s; margin: 20px auto; display: block; }
+/* line 44, ../sass/_theme.scss */
+html.cheese-shop .dl-logo path { fill: #80CBC4; }
+/* line 47, ../sass/_theme.scss */
 html.cheese-shop .dl-logo:hover { transition: transform 0.25s ease 0s; transform: scale(1.2); }
-/* line 42, ../sass/_theme.scss */
+/* line 50, ../sass/_theme.scss */
 html.cheese-shop .dl-logo:hover path { fill: #80CBC4; }
+/* line 55, ../sass/_theme.scss */
+html.cheese-shop .cta-bar { background: #263238; text-align: center; border: none; border-top: 1px solid #80CBC4; }
+/* line 60, ../sass/_theme.scss */
+html.cheese-shop .cta-bar button { width: 30%; color: #80CBC4; background: transparent; border: 1px solid #80CBC4; text-shadow: none; }

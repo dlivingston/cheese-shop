@@ -23,6 +23,14 @@ html.cheese-shop {
 		line-height: 1.2;
 		padding: 0 15px;
 	}
+	h2 {
+		font-size: 2.4rem;
+		text-align: center;
+	}
+	p {
+		font-size: 1.2rem;
+		margin: 10px 15px;
+	}
 	.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper {
 		background: transparent;
 		text-shadow: none;
@@ -42,6 +50,19 @@ html.cheese-shop {
 			path {
 				fill: $teal;
 			}
+		}
+	}
+	.cta-bar {
+		background: $blgr9;
+		text-align: center;
+		border: none;
+		border-top: 1px solid $teal;
+		button {
+			width: 30%;
+			color: $teal;
+			background: transparent;
+			border: 1px solid $teal;
+			text-shadow: none;
 		}
 	}
 }
