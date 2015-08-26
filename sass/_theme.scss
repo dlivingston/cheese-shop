@@ -58,12 +58,12 @@ html.cheese-shop {
 		text-align: center;
 		border: none;
 		border-top: 1px solid $teal;
-		button {
-			width: 30%;
+		.ui-btn {
+			background: rgba($blgr9, 0.7);
 			color: $teal;
-			background: transparent;
-			border: 1px solid $teal;
 			text-shadow: none;
+			border-color: $teal;
+			box-shadow: none;
 		}
 	}
 	header.ui-header {
@@ -73,6 +73,28 @@ html.cheese-shop {
 		border-bottom: 1px solid $teal;
 		text-shadow: none;
 		margin-bottom: 20px;
+		position: relative;
+		.menu {
+			position: absolute;
+			border: 1px solid $teal;
+			color: $teal;
+			background: transparent;
+			border-radius: 4px;
+			box-shadow: none;
+			padding: 4px 6px;
+			top: 6px;
+			.menu-text {
+				color: $teal;
+				text-shadow: none;
+			}
+		}
+		.icon-menu {
+			width: 16px;
+			margin: 3px 0 0 3px;
+			rect {
+				fill: $teal;
+			}
+		}
 	}
 	footer.ui-footer {
 		color: $teal;
@@ -124,6 +146,22 @@ html.cheese-shop {
 			background: rgba($blgr9, 0.7);
 			color: $teal;
 			text-shadow: none;
+		}
+	}
+	.nav-panel {
+		background: $blgr9;
+		color: $teal;
+		text-shadow: none;
+		.ui-listview {
+			background: $blgr9;
+			color: $teal;
+			text-shadow: none;
+		}
+		.ui-btn {
+			background: rgba($blgr9, 0.7);
+			color: $teal;
+			text-shadow: none;
+			border-color: $teal;
 		}
 	}
 }
